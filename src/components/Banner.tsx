@@ -10,7 +10,7 @@ export default function Banner() {
                     <p className="text-slate-600">
                         We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                     </p>
-                    <button className="bg-red-500 w-1/2 h-12 text-sm font-extrabold uppercase tracking-[0.2rem] text-slate-950">
+                    <button className="bg-red-500 w-1/2 h-12 font-extrabold uppercase tracking-[0.2rem] text-slate-950">
                         Read more
                     </button>
                 </div>
