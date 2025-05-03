@@ -26,7 +26,7 @@ export default function New() {
                             <div>
                                 <div key={index} className="flex flex-col items-start justify-between gap-2">
                                     <a href={`/${index}`}
-                                       className="text-xl font-bold text-stone-50">{article.title}</a>
+                                       className="text-xl font-bold text-stone-50 hover:text-orange-300">{article.title}</a>
                                     <p className="text-zinc-300">{article.description}</p>
                                 </div>
                                 {index < newArticles.length - 1 && (<hr className="mt-8 w-full border-0 bg-stone-50 h-[0.5px]"/>)}

@@ -29,7 +29,7 @@ export default function Articles() {
                             <img className="max-h-28" src={article.src} alt="Banner image"/>
                             <div className="flex flex-col items-start justify-between h-full">
                                 <p className="text-red-500 font-bold text-3xl">{`0${article.number}`}</p>
-                                <a href={`/${article.number}`} className="font-bold text-lg text-slate-950">{article.title}</a>
+                                <a href={`/${article.number}`} className="font-bold text-lg text-slate-950 hover:text-red-500">{article.title}</a>
                                 <p className="text-slate-600">{article.description}</p>
                             </div>
                         </div>

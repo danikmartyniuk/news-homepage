@@ -11,7 +11,7 @@ export default function Navigation() {
             <div className="flex flex-row items-center justify-end gap-10 w-1/2">
                 {
                     links.map((link: string) => {
-                        return <a className="text-slate-600" href={`#${link}`}>{link}</a>
+                        return <a className="text-slate-600 hover:text-orange-300" href={`#${link}`}>{link}</a>
                     })
                 }
             </div>
